@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+span {
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  animation: wave 1.5s infinite;
+}
+
+span:nth-child(n) {
+  animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes wave {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+</style>
+</head>
+<body>
+
+<div>
+  <span style="--i:1">🌙</span>
+  <span style="--i:2">S</span>
+  <span style="--i:3">e</span>
+  <span style="--i:4">l</span>
+  <span style="--i:5">a</span>
+  <span style="--i:6">m</span>
+  <span style="--i:7">a</span>
+  <span style="--i:8">t</span>
+  <span style="--i:9"> </span>
+  <span style="--i:10">T</span>
+  <span style="--i:11">i</span>
+  <span style="--i:12">d</span>
+  <span style="--i:13">u</span>
+  <span style="--i:14">r</span>
+  <span style="--i:15"> </span>
+  <span style="--i:16">S</span>
+  <span style="--i:17">a</span>
+  <span style="--i:18">y</span>
+  <span style="--i:19">a</span>
+  <span style="--i:20">n</span>
+  <span style="--i:21">g</span>
+  <span style="--i:22"> </span>
+  <span style="--i:23">c</span>
+  <span style="--i:24">a</span>
+  <span style="--i:25">n</span>
+  <span style="--i:26">t</span>
+  <span style="--i:27">i</span>
+  <span style="--i:28">k</span>
+  
+  <span style="--i:29"> 💕</span>
+</div>
+
+</body>
+</html>
